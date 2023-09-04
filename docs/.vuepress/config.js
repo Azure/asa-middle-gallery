@@ -15,8 +15,7 @@ module.exports = {
         sidebarDepth: 1,
         smoothScroll: true,
         nav: [
-         { text: "Home", link: '/' },
-         // { text: "Back to NubesGen.com", link: 'https://nubesgen.com' }
+         { text: "Home", link: '/' }
         ],
       displayAllHeaders: true,
       sidebar: [

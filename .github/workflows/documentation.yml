@@ -3,7 +3,7 @@ name: 📗 Documentation Build
 on:
   push:
     branches:
-      - docs
+      - main
     paths:
     - 'docs/'
     - '.github/workflows/documentation.yml'
@@ -24,7 +24,7 @@ jobs:
 
       - name: Deploy Docs
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/docs'
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: ./docs/.vuepress/dist
