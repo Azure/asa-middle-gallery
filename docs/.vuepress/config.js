@@ -1,12 +1,12 @@
 module.exports = {
     head: [
-        ['link', { rel: 'icon', href: '/assets/Microsoft_Azure.svg' }],
+        ['link', { rel: 'icon', href: '/assets/Azure-Spring-Apps.svg' }],
     ],
     title: "Azure Spring Apps button Documentation",
     description: "From code to deployment in minutes",
     base: "/asa-middle-gallery/",
     themeConfig: {
-        logo: '/assets/Microsoft_Azure.svg',
+        logo: '/assets/Azure-Spring-Apps.svg',
         repo: 'Azure/asa-middle-gallery',
         docsDir: 'docs',
         docsBranch: 'main',
@@ -20,7 +20,7 @@ module.exports = {
       displayAllHeaders: true,
       sidebar: [
           {
-              title: '🔹 Azure Spring Apps button',
+              title: '📘 Azure Spring Apps button',
               collapsable: false,
               sidebarDepth: 0,
               children: [
