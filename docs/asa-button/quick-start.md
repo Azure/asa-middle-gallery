@@ -8,9 +8,9 @@ The `Deploy to Azure Spring Apps` button enables users to deploy applications to
 
 By simply adding the button to your GitHub repository's `README`, you can enable users to deploy your application to Azure Spring Apps with a single click.
 
-Here’s an example button that deploys a [sample](https://github.com/hui1110/azure-spring-initializr) to Azure Spring Apps:
+Here’s an example button that deploys a [sample](https://github.com/Azure-Samples/asa-components-spring-boot-admin) to Azure Spring Apps:
 
-[![Deploy to Azure Spring Apps](https://user-images.githubusercontent.com/58474919/236122963-8c0857bb-3822-4485-892a-445fa33f1612.png)](https://yonghui-dev-apps-deploy-webapp.azuremicroservices.io/deploy.html?url=https://github.com/hui1110/azure-spring-initializr&branch=main&module=start-site)
+[![Deploy to Azure Spring Apps](https://springappsbutton.blob.core.windows.net/deploy/Azure-Spring-Apps-button.svg)](https://aka.ms/spring/asa-button?url=https://github.com/Azure-Samples/asa-components-spring-boot-admin)
 
 This document describes how to easily deploy your maintained source code to Azure Spring Apps using the `Deploy to Azure Spring Apps` button.
 
@@ -34,14 +34,14 @@ Examples of `url` is shown as below；
 **Markdown**:
 
 ```markdown
-[![Deploy to Azure](https://user-images.githubusercontent.com/58474919/236122963-8c0857bb-3822-4485-892a-445fa33f1612.png)](https://azure.spring.launcher.com/deploy.html?url=https://github.com/azure/deploy)
+[![Deploy to Azure](https://springappsbutton.blob.core.windows.net/deploy/Azure-Spring-Apps-button.svg)](https://aka.ms/spring/asa-button?url=https://github.com/Azure-Samples/asa-components-spring-boot-admin)
 ```
 
 Here’s the equivalent content as HTML if you’d prefer not to use Markdown:
 
 ```html
-<a href="https://azure.spring.launcher.com/deploy.html?url=https://github.com/azure/deploy">
-    <img src="https://user-images.githubusercontent.com/58474919/236122963-8c0857bb-3822-4485-892a-445fa33f1612.png" alt="Deploy to Azure Spring Apps">
+<a href="https://aka.ms/spring/asa-button?url=https://github.com/Azure-Samples/asa-components-spring-boot-admin">
+    <img src="https://springappsbutton.blob.core.windows.net/deploy/Azure-Spring-Apps-button.svg" alt="Deploy to Azure Spring Apps">
 </a>
 ```
 
@@ -50,7 +50,7 @@ Here’s the equivalent content as HTML if you’d prefer not to use Markdown:
 When linking to the Azure Button set-up flow, you can either use a raw link or an image link. If using an image, Azure makes available SVG versions at these URLs:
 
 ```url
-https://user-images.githubusercontent.com/58474919/236122963-8c0857bb-3822-4485-892a-445fa33f1612.png
+https://springappsbutton.blob.core.windows.net/deploy/Azure-Spring-Apps-button.svg
 ```
 
 ## Customize your Azure Spring Apps button
@@ -60,7 +60,7 @@ https://user-images.githubusercontent.com/58474919/236122963-8c0857bb-3822-4485-
 If you’d like the button to deploy from a specific Git branch, you can use a fully qualified GitHub URL as the `branch` parameter:
 
 ```url
-https://azure.spring.launcher.com/deploy.html?url=https://github.com/azure/deploy&branch=main
+https://aka.ms/spring/asa-button?url=https://github.com/Azure-Samples/asa-components-spring-boot-admin&branch=main
 ```
 
 ### Use a custom module
@@ -68,7 +68,7 @@ https://azure.spring.launcher.com/deploy.html?url=https://github.com/azure/deplo
 If you want the button to deploy from a module specified in the source code, you can use the fully qualified GitHub URL as the `module` parameter:
 
 ```url
-https://azure.spring.launcher.com/deploy.html?url=https://github.com/azure/deploy&branch=main&module=web
+https://aka.ms/spring/asa-button?url=https://github.com/Azure-Samples/ASA-Samples-Web-Application&branch=quickstart&module=web
 ```
 
 ## Further reading
